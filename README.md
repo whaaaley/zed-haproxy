@@ -2,7 +2,9 @@
 
 A [Zed](https://zed.dev) extension that adds syntax highlighting for HAProxy configuration files (`haproxy.cfg`).
 
-It wires up the [`thochra/tree-sitter-haproxy`](https://github.com/thochra/tree-sitter-haproxy) grammar and ships a `highlights.scm` query that maps its nodes to Zed's theme scopes: sections, directives, ACLs, conditionals, values, and comments.
+It wires up a tree-sitter HAProxy grammar and ships a `highlights.scm` query that maps its nodes to Zed's theme scopes: sections, directives, ACLs, conditionals, values, and comments.
+
+Two community grammars exist: [`thochra/tree-sitter-haproxy`](https://github.com/thochra/tree-sitter-haproxy) and [`Ziehnert/tree-sitter-haproxy`](https://github.com/Ziehnert/tree-sitter-haproxy). This extension pins `thochra`, which parsed my config far more cleanly (3 unparsed lines vs 93).
 
 This extension was assembled mostly from that existing tree-sitter grammar, with the Zed packaging and the highlight query generated with Claude Opus 4.8.
 
