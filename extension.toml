@@ -1,0 +1,11 @@
+id = "haproxy"
+name = "HAProxy"
+description = "Syntax highlighting for HAProxy configuration files."
+version = "0.1.0"
+schema_version = 1
+authors = ["Onclick Cooperative"]
+repository = "https://github.com/thochra/tree-sitter-haproxy"
+
+[grammars.haproxy]
+repository = "https://github.com/thochra/tree-sitter-haproxy"
+commit = "59e19f2b55be588dadbf8b038b294e5ed935cbb2"

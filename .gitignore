@@ -1,0 +1,2 @@
+# Zed build output: the grammar is fetched from its repo per extension.toml, not vendored.
+grammars/

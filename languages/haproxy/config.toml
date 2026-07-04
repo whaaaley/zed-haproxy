@@ -1,0 +1,7 @@
+name = "HAProxy"
+grammar = "haproxy"
+path_suffixes = ["cfg"]
+line_comments = ["# "]
+
+[overrides.file_types]
+HAProxy = ["haproxy.cfg", "haproxy.cfg.j2"]
