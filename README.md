@@ -1,5 +1,11 @@
 # Zed HAProxy
 
+> **To be deprecated.** The grammar's author is publishing an official HAProxy extension for the Zed registry, built on the same grammar with a more complete highlight query. This repo will be deprecated once that lands. Prefer theirs:
+>
+> - Extension: [`thochra/zed-haproxy-extension`](https://github.com/thochra/zed-haproxy-extension)
+> - Registry PR: [zed-industries/extensions#5759](https://github.com/zed-industries/extensions/pull/5759)
+> - Tracking issue: [zed-industries/extensions#5761](https://github.com/zed-industries/extensions/issues/5761)
+
 A [Zed](https://zed.dev) extension that adds syntax highlighting for HAProxy configuration files (`haproxy.cfg`).
 
 It wires up a tree-sitter HAProxy grammar and ships a `highlights.scm` query that maps its nodes to Zed's theme scopes: sections, directives, ACLs, conditionals, values, and comments.
