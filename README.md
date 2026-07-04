@@ -8,8 +8,6 @@ Two community grammars exist: [`thochra/tree-sitter-haproxy`](https://github.com
 
 This extension was assembled mostly from that existing tree-sitter grammar, with the Zed packaging and the highlight query generated with Claude Opus 4.8.
 
-I built it for personal use, but PRs to fix issues are welcome.
-
 ## Install
 
 In Zed, run `zed: install dev extension` from the command palette and select this directory. Highlighting then applies to any `haproxy.cfg`.
